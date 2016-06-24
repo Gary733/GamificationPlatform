@@ -10,12 +10,12 @@ if (!isset($_SESSION['username'])) {
 echo '<div class="col-md-9">
                                     <div class="well">
                                         <h4>Dashboard</h4>
-                                        <p>Hey, hier Noten Bruder</p>
+                                        <p>Noten im Überblick</p>
 										
                                     </div>
                                     <div class="well">
                                         <h4>CreditPoints</h4>
-                                        <p>Hey, hier CP\'s Bruder</p>                        
+                                        <p>CP\'s im Überblick</p>                        
                                     </div>                   
                                     <div class="row">
                                         <div class="col-xs-12 col-sm-6 col-lg-4">

@@ -52,7 +52,7 @@ echo'
 						><a href="index.php?page=settings">Settings</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="logout.php"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+                        <li><a href="logout.php"><span class="glyphicon glyphicon-log-in"></span>';echo" $acc";echo' ausloggen</a></li>
                     </ul>
                 </div>
             </div>
