@@ -5,6 +5,8 @@ $acc= $_SESSION['username'];
 $page = $_GET["page"];
 $title="Gamification Platform - Hochschule Hamm-Lippstadt";
 
+
+
 echo "
 <html><head>
 <link rel=\"icon\" href=\"favicon2.ico\" type=\"image/vnd.microsoft.icon\">
@@ -58,10 +60,7 @@ echo'
 ';
 		
 		
-	/*	//div box top picture
-echo "<div id=top align=center style='width:100%;position: relative;display:inline-block'>
-<img src='./images/top.png' width=100% height=100px/>
-</div>";*/
+
 echo'<div style="width:100%;">';
 		//div box left menu
 echo "<div style='width:20%;display:inline;float:left;background-color: #EEEEEE;max-width:200;height:100%;'>";
@@ -80,11 +79,7 @@ switch($page)
 	};
 echo"</div>";
 
-	/*	//div box right menu
-echo"<div style='width:20%;display:inline;float:right;background-color: lightgrey;'>";
-include "rightmenu.php";
-echo"</div>";
-*/
+
 
 echo'</div>';
 		//footer

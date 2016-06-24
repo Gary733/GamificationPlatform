@@ -30,12 +30,12 @@ else{
 }
 
 echo'
-<form action="register.php" method="post" charset="UTF-8">
-  Acc:<br>
+<form action="index.php?register=1" method="post" charset="UTF-8">
+  Name:<br>
   <input type="text" name="acc"><br>
-  PW:<br>
+  Passwort:<br>
   <input type="password" name="pw">
   <br>
-  <input type="submit" value="register">
+  <input type="submit" value="registrieren">
 </form>';
 ?>
